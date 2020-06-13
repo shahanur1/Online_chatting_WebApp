@@ -1,0 +1,226 @@
+{"intents": [
+        {"tag": "hi",
+          "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+          "responses": ["Hello, thanks for visiting", "Hi there, how can I help?"],
+          "context_set": " "
+        },
+
+        {"tag": "corona",
+          "patterns": ["What is corona?"],
+          "responses": ["Corona means virus,is it COVID-19","Coronaviruses are a large family of viruses which may cause illness in animals or humans.  In humans, several coronaviruses are known to cause respiratory infections ranging from the common cold to more severe diseases such as Middle East Respiratory Syndrome (MERS) and Severe Acute Respiratory Syndrome (SARS). The most recently discovered coronavirus causes coronavirus disease COVID-19."],
+          "context_set": " "
+        },
+
+        {"tag": "mean of corona",
+          "patterns": ["What is covid-19 ?","what is the COVID-19"],
+          "responses": ["COVID-19 is the infectious disease caused by the most recently discovered coronavirus.This new virus and disease were unknown before the outbreak began in Wuhan, China, in December 2019. COVID-19 is now a pandemic affecting many countries globally"],
+          "context_set": " "
+        },
+
+        {"tag": "distance",
+          "patterns": ["distance..?","What is the minimum distance between two people?" , "minimum distance..?"],
+          "responses": ["3 foot minimum", "minimum 3 foot or 1 meter..."],
+          "context_set": " "
+        },
+
+        {"tag": "live",
+          "patterns": ["live..?", "where you live in ?"],
+          "responses": ["i live in Dhaka...!", "Mirpur-1 Dhaka"],
+          "context_set": ""
+        },
+
+        {"tag": "temperature",
+          "patterns": ["Does temperature have an effect on corona virus infection ?"],
+          "responses": ["Temperature has no effect...", "No, because in some of the warmest countries in the world, the disease has spread and in some colder countries, not so much."],
+          "context_set": ""
+        },
+
+        {"tag": "quarantine",
+          "patterns": ["Will you be able to interact with family members during the home quarantine?"],
+          "responses": ["NO..", "As best as you can, gloves, masks and, of course, emergency protection, maintain a distance of 3 feet."],
+          "context_set": ""
+        },
+
+        {"tag": "foods",
+          "patterns": ["What kind of foods should you eat to increase your body's immunity..","how to increase your body immunity"],
+          "responses": ["In addition to the foods we normally consume, we should take in foods rich in protein (fish, meat), vitamin C (raw fruits), vitamin B12 (milk), antioxidants."],
+          "context_set": ""
+        },
+
+        {"tag": "antibiotic",
+          "patterns": ["Will antibiotic medicine be applied for coronavirus ?","what medicine can be eaten when cold or coughing..?"],
+          "responses": ["You should contact the doctor without taking antibiotics","Firstly you must contact with Doctor without any antibiotic"],
+          "context_set": ""
+        },
+
+        {"tag": "button",
+          "patterns": ["Can the elevator button cause coronavirus infection?"],
+          "responses": ["yes,if someone is switched touched on during an attack..","That's why doctors have advised the lift button to be pressed with the elbow not with the fingers.","It can be humbling if someone who has been infected has been touched before"],
+          "context_set": ""
+        },
+
+        {"tag": "symptoms",
+          "patterns": ["What are the symptoms of COVID-19?"],
+          "responses": ["Symptoms of COVID-19 include acute fever, sore throat, dry cough, shortness of breath"],
+          "context_set": ""
+        },
+
+        {"tag": "masks",
+          "patterns": ["Onetime masks should last more than 24 hours?"],
+          "responses": ["no"],
+          "context_set": " "
+        },
+
+        {"tag": "alcohol",
+          "patterns": ["What is the minimum amount of alcohol in hand sanitizer?"],
+          "responses": ["minimum 60%..."],
+          "context_set": ""
+        },
+        {"tag": "affected corona",
+          "patterns": ["when will i understand that i have affected by corona..?","when i will understand  i affect by covId-19 virus..?","when i understand i affected by corona virus...?"],
+          "responses": ["when you realize your 100 degree celsius fever and store throat and body aches.seek the advice of a doctor at the nearest hospital immediately "],
+          "context_set": ""
+        },
+
+        {"tag": "rid",
+          "patterns": ["Is alcohol consumption a way to get rid of coronavirus?"],
+          "responses": ["No"],
+          "context_set": ""
+        },
+
+        {"tag": "water spread",
+          "patterns": ["can corona virus spread through water?","can corona virus spread water..?"],
+          "responses": ["Of course, any infected person can spread contact with the water used."],
+          "context_set": ""
+        },
+
+        {"tag": "old",
+          "patterns": ["How old is the risk of coronavirus infection highest?"],
+          "responses": ["People over the age of 50 are at least 10 times more at risk of getting infected"],
+          "context_set": ""
+        },
+
+        {"tag": "infected covid",
+          "patterns": ["How many symptoms can remain untreated even if Covid-19 is infected?"],
+          "responses": ["maximums after 14 days.."],
+          "context_set": ""
+        },
+
+        {"tag": "journey",
+          "patterns": ["What do you actually do at home by a member of the Long Journey?"],
+          "responses": ["14 days home quarantine must be confirmed","must be home quarantine but before the person Washing hands with Detal soap ,then giving a glass of cold drinking water,then getting it rest."],
+          "context_set": ""
+        },
+
+        {"tag": "wash",
+          "patterns": ["Need to wash your hands with a hand wash or soap before eating something?"],
+          "responses": ["Yes...must be need wash hand spend 20 sec times..before eating food.."],
+          "context_set": ""
+        },
+
+        {"tag": "spread through water",
+          "patterns": ["Can corona virus spread through water?","can corona spread water...?"],
+          "responses": ["Of course, any infected person can spread contact with the water used."],
+          "context_set": ""
+        },
+
+        {"tag": "kept",
+         "patterns": ["Who is kept in the quarantine?" ],
+         "responses": ["First, those who have already come from exile. Those who have fever, sneezing-cough, shortness of breath, sore throat and so on."],
+          "context_set": ""
+        },
+
+        {"tag": "iedcr",
+          "patterns": ["What is the short code for communicating with IEDCR?"],
+          "responses": ["1.01937000011        2. 01937110011         3. 01927711784"],
+          "context_set": ""
+        },
+        {"tag":"isolation",
+          "patterns": ["what is the isolation?"],
+          "responses": ["Those who have been infected with coronas are kept at isolation."],
+          "context_set": ""
+        },
+
+        {"tag": "isolation",
+          "patterns": ["Who is kept in isolation?" ],
+          "responses": ["Those who have been infected with coronas are kept at isolation."],
+          "context_set": ""
+        },
+
+        {"tag": "age",
+          "patterns": ["Symptoms of the Corona Virus Depending on the Age?"],
+          "responses": ["symptoms does not depend on age, but the effect depends on age."],
+          "context_set": ""
+        },
+
+        {"tag": "tea cup",
+          "patterns": ["Plate-glass-tea cups can spread the corona virus?"],
+          "responses": ["Of course. If a plate-glass-tea cup is used by an infected person beforehand. In that case, it can spread from there to an ordinary person, whether infected or not."],
+          "context_set": ""
+        },
+
+        {"tag": "water",
+         "patterns": ["Using hot water can reduce the chances of coronary virus?" ],
+          "responses": ["No such information was provided from the World Health Organization.","No, because we cannot use hot water at the temperature at which the virus dies, which means at 70 degree..."]
+        },
+
+        {"tag": "house,door",
+          "patterns": ["Do the doors and windows of the house always have to be closed?" ],
+          "responses": ["No! Why? No need We can keep the doors and windows open as we please."],
+          "context_set": ""
+        },
+
+        {"tag": "play",
+          "patterns": ["Should kids be allowed to go play outside now?"],
+          "responses": ["No, in the case of the disaster we are now in, we must actually keep the children home until this situation is overcome."],
+          "context_set": ""
+        },
+
+        {"tag": "asthma",
+          "patterns": ["What is the risk of corona virus for those with asthma?" ],
+          "responses": ["Experts say the virus is \"extremely risky\" for those with severe asthma. Because those who have asthma, like the coronavirus infection, the symptoms of asthma will start."],
+          "context_set": ""
+        },
+
+        {"tag": "risk",
+          "patterns": ["How much is the risk of infection from money or coins, door handles and other hard things we catch with our hands?" ],
+          "responses": ["If someone is infected with this virus or has a cough, the cough sticks to his hand and if he touches something with that hand, that thing can be infected. Door handles can be especially risky."],
+          "context_set":""
+        },
+
+        {"tag": "come",
+         "patterns": ["Can Corona come back every year?" ],
+         "responses": ["Yes. Most scientists think the virus is more prevalent in winter. Experts are asking us to prepare in advance for the winter."]
+        },
+
+        {"tag": "antidote",
+          "patterns": ["You may have to wait how long the antidote is to arrive?" ],
+          "responses": ["It may take a year and a half. Work is underway in the United States and China. In the short time, some seemingly effective drugs may come to save people."],
+          "context_set": ""
+        },
+
+        {"tag": "again",
+          "patterns": ["Once it is done, is it possible to happen again?" ],
+          "responses": ["Maybe 4% of healthy people in China have a record of being infected again!"],
+          "context_set": ""
+        },
+
+        {"tag": "thanks",
+          "patterns": ["Thanks", "Thank you", "That's helpful"],
+          "responses": ["Happy to help!", "Any time!", "My pleasure"],
+          "context_set": ""
+        },
+
+        {"tag": "hours",
+          "patterns": ["What hours are you open?", "What are your hours?", "When are you open?" ],
+          "responses": ["We're open every day 9am-9pm", "Our hours are 9am-9pm every day"],
+          "context_set": ""
+        },
+
+        {"tag": "open today",
+          "patterns": ["Are you open today?", "When do you open today?", "What are your hours today?"],
+          "responses": ["We're open every day from 9am-9pm", "Our hours are 9am-9pm every day"],
+          "context_set": ""
+        }
+    ]
+}
